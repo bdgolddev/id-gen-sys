@@ -24,7 +24,8 @@ const page = async ({ params }) => {
       ==================================================================== */}
       
 
-      <ProfileCard {...userInfo}/>        
+      <ProfileCard {...userInfo}/>
+      <Link href={'/'} className="btn btn-neutral m-2">	&#8592; Back</Link>     
 
       {/* ========================================================================= */}
     </div>
